@@ -1,0 +1,19 @@
+.footer--pin {
+  border-top: 1px solid white;
+  padding: 5px;
+}
+
+.footer-nav {
+  text-align: left;
+}
+
+.footer--pin li {
+  list-style: none;
+  padding: 5px;
+}
+
+.copyright {
+  display: center;
+  text-decoration: underline;
+  font-family: "MinionPro";
+}
