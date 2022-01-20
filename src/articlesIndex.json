@@ -26,5 +26,13 @@
     "featuredImg": "Joseph LeConte 1823-1901/0002.jpg",
     "type": "jpg",
     "id": "003"
+  },
+  {
+    "title": "Thomas Addis Emmet and William James MacNeven",
+    "images": [ "0001.jpg", "0002.jpg"],
+    "src": "Emmet and MacNeven/",
+    "featuredImg": "Emmet and MacNeven/0001.jpg",
+    "type": "jpg",
+    "id": "004"
   }
 ]
