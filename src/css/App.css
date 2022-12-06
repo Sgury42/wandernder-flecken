@@ -1,28 +1,32 @@
 .app {
-  font-family: "MinionPro";
+  font-family: "Adobe Garamond Pro Regular";
   font-size: 1.5em;
   text-align: center;
+  /* color: #340c0c; */
+  color: #880102;
+  background-color: #fcf4c9;
+  padding: 1px;
 }
 
 .content-container {
   min-height: calc(100vh - 140px);
-  margin-bottom: 30px;
 }
 
+h1, h2, h3 {
+  color: #340c0c;
+  font-weight: 100;
+}
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
+h1 {
+  font-size: 70px;
+  margin: 10px;
+}
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+h2 {
+  margin: 0;
+  font-size: 40px;
+}
 
-
-
-/* .App-link {
-  color: #61dafb;
-} */
+h3 {
+  font-size: 30px;
+}

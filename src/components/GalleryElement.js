@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import '../css/GalleryElement.css';
 
 
+
 const GalleryElement = (props) => {
 
   const navigate = useNavigate();
@@ -17,10 +18,9 @@ const GalleryElement = (props) => {
   }
 
   return (
-    <section className="galleryElement">
-      <img src={source} alt='img'/>
-      <p>{title}</p>
-      <button onClick={e => handleClick(e, {id})}>READ</button>
+    <section className="galleryElement" >
+        <img src={source} alt='img' onClick={e => handleClick(e, {id})}/>
+        <p>{title}</p>
     </section>
   )
 }

@@ -1,7 +1,7 @@
 import './css/App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header, Footer } from './components/index';
-import { Home, About, Contact, Article, PageNotFound } from './pages/index';
+import {Home, Article, PageNotFound } from './pages/index';
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
         <div className="content-container">
         <Routes>
           <Route path='/' exact element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
+          {/* <Route path='/about' element={<About />} /> */}
+          {/* <Route path='/contact' element={<Contact />} /> */}
           <Route path='/read/:id/:index/:page' element={<Article />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>

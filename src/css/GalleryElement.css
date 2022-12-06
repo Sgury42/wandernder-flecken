@@ -1,22 +1,20 @@
 
 .galleryElement {
   height: fit-content;
-  width: 300px;
-  margin: 20px;
-  display: inline-block;
+  margin: 10px;
 }
 
 .galleryElement img {
   max-height: 200px;
-  height: 60%;
+  cursor: pointer;
+
 }
 
 .galleryElement p {
-  height: 100px;
-  /* overflow: hidden; */
+  font-size: 14pt;
 }
 
-.galleryElement button {
+/* .galleryElement button {
   border-radius: 5px;
   background-color: #FFEDD2;
   border: none;
@@ -33,4 +31,4 @@
 .galleryElement button:active {
   background-color: #FFE6C0;
   transform: translateY(4px);
-}
+} */

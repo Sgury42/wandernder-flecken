@@ -1,0 +1,30 @@
+.inline-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#intro {
+  width: 40%;
+  color: #341a1b;
+  text-align: justify;
+  font-size: 30px;
+  padding: 0px 50px 0px 50px;
+}
+
+#right-column, #left-column {
+  width: 30%;
+}
+
+#bottom-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.middle {
+  width: 40%;
+}
+
+.side {
+  width: 30%;
+}

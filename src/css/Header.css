@@ -1,23 +1,7 @@
-.Navbar {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  text-align: left;
-  padding: 10px;
-}
-
-.Navbar li {
-  list-style: none;
-  display: inline;
-  padding: 10px;
-  margin: 1px;
-  border-right: 1px solid white;
-}
-
-li :hover {
-  text-decoration: underline;
+header {
+  border-bottom: 2px solid #880102;
 }
 
 a {
   text-decoration: none;
-  color: white;
 }

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../css/Footer.css'
 
 const Footer = () => {
   return (
     <footer className="footer--pin">
-    <div className="footer-nav">
+    {/* <div className="footer-nav">
       <li>
         <Link to="/">HOME</Link>
       </li>
@@ -15,7 +15,7 @@ const Footer = () => {
       <li>
         <Link to="/contact">CONTACT</Link>
       </li>
-    </div>
+    </div> */}
       <p className="copyright">©Wandernder Flecken - 2022</p>
     </footer>
   )
