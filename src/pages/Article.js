@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import articlesIndex from '../articlesIndex.json';
 import { GalleryElement } from '../components';
 import '../css/Article.css';
+import { FaCaretLeft, FaCaretRight } from 'react-icons/fa';
 
 
 const Article = () =>{
@@ -62,11 +63,11 @@ const Article = () =>{
       <div className="article-space">
         <h3 className="title">{data.title}</h3>
         <button className="arrow-prev nav-button" disabled={prevDisabled} onClick={e => handleClick('prev')}>
-          <img className="nav-icon" src="../../../icons/arrow-down-w.png" alt="icon" />
+          <FaCaretLeft />
         </button>
           <img className="image" src={source} alt='article'/>
         <button className="arrow-next nav-button" disabled={nextDisabled} onClick={e => handleClick('next')}>
-          <img className="nav-icon" src="../../../icons/arrow-down-w.png" alt="icon" />
+          <FaCaretRight />
         </button>
       </div>
       <div className="suggestions">
